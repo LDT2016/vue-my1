@@ -1,0 +1,43 @@
+$radio-size: 26px;
+$radio-checked-position: 2px;
+$radio-checked-size: 11px;
+
+.check {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  & .mark {
+    position: relative;
+    margin: 0 auto 5px;
+    height: $radio-size;
+    width: $radio-size;
+    background-color: #eee;
+    border: 1.2px solid #ccc;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    // position: fixed;
+    border-radius: 23px;
+  }
+
+  &.on {
+    & .mark:after {
+      content: '';
+      position: absolute;
+      display: initial;
+      left: $radio-checked-position;
+      top: $radio-checked-position;
+      // width: $radio-checked-size;
+      border: $radio-checked-size solid #014f9d;
+      border-radius: 104px;
+    }
+  }
+}
