@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <!-- <Count /> -->
-    <ImprintOption />
+    <ImprintOption combinationsText="werwer" :callback="testEvent" />
   </div>
 </template>
 
@@ -10,7 +10,12 @@ import Count from './components/Count/Count'
 import ImprintOption from './components/ImprintOption/ImprintOption'
 export default {
   name: 'App',
-  components: { Count, ImprintOption }
+  components: { Count, ImprintOption },
+  methods: {
+    testEvent() {
+      console.log('test test')
+    }
+  }
 }
 </script>
 

@@ -2,7 +2,7 @@
 <template>
   <div class="combination" :title="combinationsText">
     <div class="icon-wrapper">
-      <img class="icon" :alt="combinationsText" :src="thumbnailIcon" />
+      <img class="icon" :alt="combinationsText" :src="thumbnailIcon" @click="say" />
     </div>
     <div class="desc">{{combinationsText}}</div>
     <CheckMark />
@@ -21,7 +21,7 @@ export default {
   components: { CheckMark },
   props: {
     combinationsText: String,
-    thumbnailFilename: Number,
+    thumbnailFilename: String,
     callback: Function
   },
   data() {
@@ -40,8 +40,9 @@ export default {
   },
   methods: {
     say() {
-      this.checked = !this.checked
-      this.reversedMessage()
+      // this.checked = !this.checked
+      // this.reversedMessage()
+      this.callback()
     },
     reversedMessage() {
       // `this` points to the vm instance
