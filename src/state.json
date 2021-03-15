@@ -1,0 +1,136 @@
+{
+  "imprintAreaDict": {
+    "VEN385-OPT1-N9830": {
+      "description": "Shape - Rectangle",
+      "imprintAreaCode": "VEN385",
+      "isDefault": true,
+      "key": "VEN385-OPT1-N9830",
+      "location": "OPT1",
+      "sequence": 1,
+      "styleId": "N9830"
+    },
+    "VEN771-LOGO1-N9830": {
+      "description": "Add Your Logo  Offset Circle",
+      "imprintAreaCode": "VEN771",
+      "isDefault": false,
+      "key": "VEN771-LOGO1-N9830",
+      "location": "LOGO1",
+      "sequence": 5,
+      "styleId": "N9830"
+    },
+    "VEN771-LOGO2-N9830": {
+      "description": "Add Your Logo  Centered Circle",
+      "imprintAreaCode": "VEN771",
+      "isDefault": false,
+      "key": "VEN771-LOGO2-N9830",
+      "location": "LOGO2",
+      "sequence": 6,
+      "styleId": "N9830"
+    },
+    "VEN68A-OPT2-N9830": {
+      "description": "Shape - Oval",
+      "imprintAreaCode": "VEN68A",
+      "isDefault": false,
+      "key": "VEN68A-OPT2-N9830",
+      "location": "OPT2",
+      "sequence": 2,
+      "styleId": "N9830"
+    },
+    "VEN69A-OPT3-N9830": {
+      "description": "Shape- Offset Circle",
+      "imprintAreaCode": "VEN69A",
+      "isDefault": false,
+      "key": "VEN69A-OPT3-N9830",
+      "location": "OPT3",
+      "sequence": 3,
+      "styleId": "N9830"
+    },
+    "VEN70A-OPT4-N9830": {
+      "description": "Shape - Centered Circle",
+      "imprintAreaCode": "VEN70A",
+      "isDefault": false,
+      "key": "VEN70A-OPT4-N9830",
+      "location": "OPT4",
+      "sequence": 4,
+      "styleId": "N9830"
+    }
+  },
+  "imprintAreasCombinedDict": {
+    "Calendar": {
+      "name": "Calendar",
+      "combinations": [
+        {
+          "combinationsText": "Shape - Rectangle",
+          "formats": ["VEN385-OPT1-N9830"],
+          "index": 0,
+          "selected": false,
+          "thumbnailFilename": "CALENDAR_008.jpg"
+        },
+        {
+          "combinationsText": "Shape - Oval",
+          "formats": ["VEN68A-OPT2-N9830"],
+          "index": 1,
+          "selected": false,
+          "thumbnailFilename": "CALENDAR_015.jpg"
+        },
+        {
+          "combinationsText": "Shape- Offset Circle",
+          "formats": ["VEN69A-OPT3-N9830"],
+          "index": 2,
+          "selected": false,
+          "thumbnailFilename": "CALENDAR_012.jpg"
+        },
+        {
+          "combinationsText": "Shape - Centered Circle",
+          "formats": ["VEN70A-OPT4-N9830"],
+          "index": 3,
+          "selected": false,
+          "thumbnailFilename": "CALENDAR_009.jpg"
+        },
+        {
+          "combinationsText": "No Imprint",
+          "formats": ["NA-NA-NA"],
+          "index": 4,
+          "selected": false,
+          "thumbnailFilename": "CALENDAR_016.jpg"
+        }
+      ]
+    },
+    "Add Logo": {
+      "name": "Add Logo",
+      "combinations": [
+        {
+          "combinationsText": "Add Your Logo  Offset Circle",
+          "formats": ["VEN771-LOGO1-N9830"],
+          "index": 0,
+          "selected": false,
+          "thumbnailFilename": "CALENDAR_014.jpg"
+        },
+        {
+          "combinationsText": "Add Your Logo  Centered Circle",
+          "formats": ["VEN771-LOGO2-N9830"],
+          "index": 1,
+          "selected": false,
+          "thumbnailFilename": "CALENDAR_011.jpg"
+        },
+        {
+          "combinationsText": "No Imprint",
+          "formats": ["NA-NA-NA"],
+          "index": 2,
+          "selected": false,
+          "thumbnailFilename": "CALENDAR_016.jpg"
+        }
+      ]
+    }
+  },
+  "parameters": {
+    "status": "new",
+    "vendorId": "100010",
+    "itemSku": "42612",
+    "refId": "navinktest",
+    "zip": "12010",
+    "returnUrl": "UP",
+    "priceSvcUrl": "https://ufppricesvcqa.navitor.com/api/items/verbose?",
+    "token": ""
+  }
+}

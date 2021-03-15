@@ -1,12 +1,11 @@
-
 <template>
   <div class="combination" :title="combinationsText">
     <div class="icon-wrapper">
       <img class="icon" :alt="combinationsText" :src="thumbnailIcon" @click="say" />
     </div>
-    <div class="desc">{{combinationsText}}</div>
+    <div class="desc">{{ combinationsText }}</div>
     <CheckMark />
-    <div class="charge">{{optionCharge}}</div>
+    <div class="charge">{{ optionCharge }}</div>
   </div>
 </template>
 <style lang="scss" scoped>
@@ -31,7 +30,7 @@ export default {
     }
   },
   computed: {
-    optionCharge() {
+    optionCharge: () => {
       return '$3.5'
     },
     thumbnailIcon() {
